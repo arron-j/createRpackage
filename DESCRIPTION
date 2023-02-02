@@ -1,0 +1,12 @@
+Package: createRpackage
+Type: Package
+Title: This package is use to init env for createRpackage.
+Version: 0.1.1
+Date: 2023-02-02
+Author: Jiang
+Maintainer: Jiang<arronjiangdc@hotmail.com>
+Description: This package is use to init env for createRpackage.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.2
