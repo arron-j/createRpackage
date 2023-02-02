@@ -1,7 +1,7 @@
 Package: createRpackage
 Type: Package
 Title: This package is use to init env for createRpackage.
-Version: 0.1.1
+Version: 0.1.2
 Date: 2023-02-02
 Author: Jiang
 Maintainer: Jiang<arronjiangdc@hotmail.com>

@@ -18,4 +18,12 @@ Use the funciton createRpackage to init env.
 \examples{
 packname='packsf' 
 createRpackage(packname)
+ # 初始化文件后，修改活增添功能后，再编译成新的R包
+library(devtools)
+library(roxygen2)
+setwd("D:/test/")  # 须为R包根目录的上一级目录
+ # 编译R包三部曲：
+roxygenize("D:/test/packsf")
+check("packsf")
+build("packsf")
 }
